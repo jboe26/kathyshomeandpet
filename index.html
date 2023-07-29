@@ -40,20 +40,19 @@
 
   <section id="contact">
     <h2>Contact Us</h2>
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
+    <h2>Send e-mail to someone@example.com:</h2>
 
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" rows="4" required></textarea>
-
-
+<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name"><br>
+E-mail:<br>
+<input type="text" name="mail"><br>
+Comment:<br>
+<input type="text" name="comment" size="50"><br><br>
 <input type="submit" value="Send" <a href="mailto:joshboep@gmail.com">
+</form>
 
-    </form>
   </section>
 
   <footer>
