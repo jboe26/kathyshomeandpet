@@ -41,21 +41,18 @@
 
   <section id="contact">
     <h2>Contact Us</h2>
-    <form>
-        <div class="mb-3">
-          <label for="exampleInputName" class="form-label">Name</label>
-          <input type="name" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email</label>
-          <input type="email" class="form-control" id="exampleInputEmail1">
-        </div>
-        <div class="mb-3">
-            <label for="exampleInputMessage" class="form-label">Message</label>
-            <input type="name" class="form-control" id="exampleInputMessage">
-          </div>
-        <button type="submit" class="btn btn-primary" a href="mailto: kathy.swearingen@gmail.com">Submit</button>
-      </form>
+    <form method="post" action="mailto: kathy.swearingen@gmail.com">
+
+        <textarea name="Name"></textarea>
+        <br>
+        <textarea name="message"></textarea>
+        <br>
+        <textarea name="Message"></textarea>
+        <br>
+        <input type="submit">
+        
+        
+        </form>
   </section>
 
   <footer>
