@@ -41,16 +41,21 @@
 
   <section id="contact">
     <h2>Contact Us</h2>
-<form action="mailto:someone@example.com" method="post" enctype="text/plain">
-Name:<br>
-<input type="text" name="name"><br>
-E-mail:<br>
-<input type="email" name="email"><br>
-Comment:<br>
-<input type="text" name="comment" size="50"><br><br>
-<input type="submit" value="Submit" <a href="mailto:kathy.swearingen@gmail.com">
-</form>
-
+    <form>
+        <div class="mb-3">
+          <label for="exampleInputName" class="form-label">Name</label>
+          <input type="name" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputMessage" class="form-label">Message</label>
+            <input type="name" class="form-control" id="exampleInputMessage">
+          </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
   </section>
 
   <footer>
