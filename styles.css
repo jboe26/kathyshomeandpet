@@ -36,6 +36,10 @@ section {
   ;
 }
 
+.card {
+  offset: -3;
+}
+
 footer {
   text-align: center;
   padding: 1rem;
