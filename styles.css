@@ -84,3 +84,7 @@ button {
 button:hover {
   background-color: #444;
 }
+
+#homeHeading {
+  color: #6f90ad;
+}
