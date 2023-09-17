@@ -42,6 +42,14 @@ nav ul li a {
     margin-bottom: 10px; 
 }
 
+#puppies {
+  border-radius: 30px;
+  /* background: #73AD21; */
+  padding: 20px;
+  width: 500px;
+  height: 250px;
+}
+
 
 section {
   padding: 2rem;
