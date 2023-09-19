@@ -96,3 +96,9 @@ button:hover {
 #homeHeading {
   color: #6f90ad;
 }
+
+.navbar-custom {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #6f90ad;
+}
