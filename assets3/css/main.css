@@ -20,7 +20,7 @@
 /* Colors */
 :root {
   --color-default: #364d59;
-  --color-primary: #feb900;
+  /* --color-primary: #feb900; */
   --color-secondary: #52565e;
 }
 
@@ -326,7 +326,7 @@ section {
     height: 2px;
     bottom: -6px;
     left: 0;
-    background-color: var(--color-primary);
+    /* background-color: var(--color-primary); */
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
